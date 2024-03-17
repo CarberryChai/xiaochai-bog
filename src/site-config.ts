@@ -1,5 +1,5 @@
 export const siteConfig = {
-  author: 'Kaivan Wong',
+  author: 'Carberry Chai',
   title: 'Vitesse theme for Astro',
   subtitle: 'Supports Vue and UnoCSS.',
   description: 'Vitesse theme for Astro blog, supports Vue and UnoCSS.',
@@ -16,10 +16,6 @@ export const siteConfig = {
     {
       text: 'Blog',
       href: '/blog',
-    },
-    {
-      text: 'Projects',
-      href: '/projects',
     },
   ],
   hero: {
@@ -106,24 +102,6 @@ export const siteConfig = {
           href: '',
         },
       ],
-    },
-  ],
-  footerNavLinks: [
-    {
-      text: 'About',
-      href: '/about',
-    },
-    {
-      text: 'Sponsor',
-      href: '/sponsor',
-    },
-    {
-      text: 'Contact Me',
-      href: 'mailto:kaivanwong@outlook.me',
-    },
-    {
-      text: 'Github Repo',
-      href: 'https://github.com/kaivanwong/vitesse-astro-theme',
     },
   ],
 }
