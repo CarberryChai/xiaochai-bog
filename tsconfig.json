@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",
+    "target": "ESNext",
     "module": "ESNext",
-    "strictNullChecks": true
-  },
-  "exclude": ["**/*.js"]
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "isolatedModules": true
+  }
 }

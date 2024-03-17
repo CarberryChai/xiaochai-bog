@@ -24,7 +24,6 @@
     "@unocss/reset": "^0.58.5",
     "astro": "^4.5.2",
     "marked": "^11.2.0",
-    "unocss": "^0.58.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -37,7 +36,8 @@
     "eslint-plugin-format": "^0.1.0",
     "lint-staged": "^15.2.2",
     "prettier-plugin-astro": "^0.13.0",
-    "simple-git-hooks": "^2.10.0"
+    "simple-git-hooks": "^2.10.0",
+    "unocss": "^0.58.5"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
